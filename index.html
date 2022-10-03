@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="shortcut icon" href="res/images/favicon-32x32.png" type="image/x-icon">
+    <script defer src="index.js"></script>
+    <title>Interactive rating component</title>
+</head>
+
+<body>
+    <main class="main-section">
+        <section class="rating-card">
+            <div class="rating-star-icon-element"><img class="rating-star-icon" src="res/images/icon-star.svg" alt=""></div>
+            <div class="rating-text">
+                <h1 class="rating-heading">How did we do?</h1>
+                <p class="rating-description">Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering.</p>
+            </div>
+            <ul class="ratings-list">
+                <li class="rating-item" tabindex="1" role="button"><span>1</span></li>
+                <li class="rating-item" tabindex="2" role="button"><span>2</span></li>
+                <li class="rating-item" tabindex="3" role="button"><span>3</span></li>
+                <li class="rating-item" tabindex="4" role="button"><span>4</span></li>
+                <li class="rating-item" tabindex="5" role="button"><span>5</span></li>
+            </ul>
+            <button type="submit" class="btn-rating btn">Submit</button>
+        </section>
+        <section class="thank-you-card hidden">
+            <div class="thank-you-icon-element"><img class="thank-you-icon" src="res/images/illustration-thank-you.svg" alt=""></div>
+            <p class="rating-selection-text">You selected <span class="user-rating">x</span> out of 5</p>
+            <div class="thank-you-text">
+                <h1 class="thank-you-header">Thank you!</h1>
+                <p class="thank-you-description">We appreciate you taking the time to give a rating. If you ever need more support, don't hesitate to get in touch!</p>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
